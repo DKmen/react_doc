@@ -1,3 +1,5 @@
+import React from "react";
+
 // import LifeCycleMethodsA from "./Documentation/LifeCycleMethods/LifecycleMethod";
 // import ParentCompoents from "./Documentation/PureComponents/ParentComponent";
 // import MemoParentCompoents from "./Documentation/Memo/MemoPaent";
@@ -13,12 +15,11 @@
 // import UseMemoComponents from "./Documentation/Hooks/UseMemo.js";
 // import UseRefHookComponents from "./Documentation/Hooks/UseRefHooks.js";
 // import CountTitleComponents from "./Documentation/Hooks/CustomeHooks.js/CountTitle.js";
-import UseEffectHookComponents from "./Documentation/Hooks/UseEffectHook.js";
+// import UseEffectHookComponents from "./Documentation/Hooks/UseEffectHook.js";
 
 function App() {
   return (
     <>
-      <UseEffectHookComponents />
     </>
   );
 }

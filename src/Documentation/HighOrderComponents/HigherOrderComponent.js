@@ -12,14 +12,15 @@ export default function CountFunctionality(Elements) {
         addCount = () => {
             this.setState((pre) => ({
                 count: pre.count + 1
-            }))
+            }));
         }
 
         render() {
             return (
                 <>
-                    <Elements count={this.state.count} addCount={this.addCount} {...this.props}/>
-                </>)
+                    <Elements count={this.state.count} addCount={this.addCount} {...this.props} />
+                </>
+            );
         }
     }
 
